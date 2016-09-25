@@ -3,7 +3,6 @@ h1{
     font-style: italic;
     box-shadow: 10px 10px 5px red;
     font-family: fantasy;
-    font: normal italic 1.5em sans-serif;
     background-color: #333;
     margin: 0 10%; 
 }
@@ -11,9 +10,12 @@ button{
     align-content: center;
 }
 .form{
-    padding: 3% 10%;
-    
+    padding: 5% 10%;  
 }
+.lista{
+    border-top:20px;
+    padding: 40px 20px;
+    }
 .img{
     align-content: center;
     /*padding: 5px 30px;*/
@@ -30,4 +32,15 @@ img{
     border:solid 1px black;
     box-shadow: 10px 10px 25px black;
     border-radius: 10px 10px;
+}
+li,.list-group-item,.list-group-item:first-child,.list-group-item:last-child{
+    background: -webkit-linear-gradient(left,transparent,red, darkred);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: fantasy;
+    color:red;
+    }
+li:hover,.list-group-item:hover {
+    border-left: solid 4px darkred;
+    color:black;
 }
