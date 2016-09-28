@@ -6,8 +6,8 @@ h1{
     background-color: #333;
     margin: 0 10%; 
 }
-button{
-    align-content: center;
+.resultado{
+    font-size: 20px;
 }
 .form{
     padding: 5% 10%;  
