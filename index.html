@@ -25,14 +25,16 @@
     </head>
     <body>
         <br><br>
-        <h1 class="text-center">PRACTICA # 1</h1>
+        <h1 class="text-center" title="Ejercicio 1">PRACTICA # 1</h1>
         <div class="row" >
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
             <div class="lista">
-              <ul class="list-group">
-                <li class="list-group-item">Item 1</li>
-                <li class="list-group-item">Item 2</li>
-                <li class="list-group-item">Item 3</li>
+                <center><label >Ejercicio 4</label></center>
+                <ul class="list-group">
+                <a href="#ejercicio3"><li class="list-group-item">Ejercicio 3</li></a>
+                <a href="#ejercicio6"><li class="list-group-item">Ejercicio 6</li></a>
+                <a href="#ejercicio6"><li class="list-group-item">Ejercicio 6</li></a>
+
             </ul>  
             </div>
             <div class="form">
@@ -55,6 +57,7 @@
             <div class="form"> 
             <form action="" method="POST" role="form">
                 <div class="form-group">
+                     <center><label >Ejercicio 2</label></center> 
                     <label for="">Nombre</label>
                     <input type="text" class="form-control" id="" placeholder="nombre" maxlength="12" required>
                 </div>
@@ -70,22 +73,29 @@
                     <label for="">Cantidad de hijos</label>
                     <input type="number" class="form-control" id="" placeholder="Cantidad" min="0" max="10" required>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-primary">Submit</button>
             </form>   
             </div>    
         </div>
         </div>
          
         
-        
-        <div class="img">
+        <a name="ejercicio3"></a>
+        <div class="img" title="Ejercicio 3">
         <img src="Images/Film_Gold.png" class="img-responsive" alt="Image" width="70%" height="70%">
         </div>
-        
-        
-        <!-- jQuery -->
-        <!--<script src="//code.jquery.com/jquery.js"></script>
-         Bootstrap JavaScript -->
+        <div class="gen">
+            <a name="ejercicio6"></a>
+            <form action="" >
+                <legend>Ejercicio 6</legend>
+                <div class="form-group">
+                    <label for="">Numero de lista</label>
+                    <input type="number" class="form-control" id="numero" max="50" placeholder="Cantidad de li">
+                </div>
+                <button type="button" onclick="generar()">Generar lista</button>
+            </form>
+            
+        </div>
         
     </body>
 </html>

@@ -12,6 +12,7 @@ h1{
 .form{
     padding: 5% 10%;  
 }
+.form-control{  width: auto;}
 .lista{
     border-top:20px;
     padding: 40px 20px;
@@ -43,4 +44,7 @@ li,.list-group-item,.list-group-item:first-child,.list-group-item:last-child{
 li:hover,.list-group-item:hover {
     border-left: solid 4px darkred;
     color:black;
+}
+.gen{
+    margin: 30% 5%;
 }
