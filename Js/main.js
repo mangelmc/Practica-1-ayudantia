@@ -28,3 +28,9 @@ function generar(){
     document.getElementsByTagName("body")[0].appendChild(lista);
     return false;
 }
+//funcion para cambiar el color de fondo
+function cambiarColor(){
+    var valor = document.getElementById("color").value;;
+    var nuevoColor = "linear-gradient("+valor+", #fff)";
+    document.getElementsByTagName("body")[0].style.background = nuevoColor;
+}
